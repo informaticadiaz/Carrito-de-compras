@@ -11,7 +11,6 @@ function crearTarjetasProductosInicio(productos){
     <button>Agregar al Pedido</button>
   </div>`
     contenedorTarjetas.insertAdjacentHTML("beforeend",bicicletaHtml);
-    //nuevaBicicleta.getElementsByTagName("button")[0].addEventListener("click",() => agregarAlCarrito(producto))
     document.getElementsByClassName("tarjeta-producto")[index].addEventListener("click",() => agregarAlCarrito(producto))  });
   
 }

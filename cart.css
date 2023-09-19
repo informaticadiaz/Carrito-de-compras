@@ -1,26 +1,40 @@
 #cart-container{
-  max-width: 500px;
+  max-width: 50%;
   margin: auto;
 }
 
-.tarjeta-producto{
+.cart-tarjeta-producto{
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 100px;
   gap: 20px;
 }
 
-.tarjeta-producto img{
-  height: 100%;
+.un-cuarto{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
 }
 
-.tarjeta-producto h3{
+.cart-tarjeta-producto img{
+  height: 100px;
+}
+
+.cart-tarjeta-producto h3{
   width: 130px;
 }
-.tarjeta-producto div{
-  background-color: var(--color-acento-claro);
+.cart-tarjeta-producto div{
+  
   padding: 3px;
   border-radius: 5px;
+}
+
+.cart-tarjeta-producto button{
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
 }
 
 #totales{

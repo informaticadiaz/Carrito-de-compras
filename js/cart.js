@@ -11,12 +11,12 @@ function crearTarjetasProductosCarrito() {
   if (productos && productos.length > 0) {
     productos.forEach((producto) => {
       const nuevaBicicleta = document.createElement("div");
-      nuevaBicicleta.classList = "tarjeta-producto";
-      nuevaBicicleta.innerHTML = `
-    <img src="./img/productos/${producto.id}.jpg" alt="Bicicleta 1">
-    <h3>${producto.nombre}</h3>
-    <span>$${producto.precio}</span>
-    <div>
+      nuevaBicicleta.classList = "cart-tarjeta-producto";
+      nuevaBicicleta.innerHTML = ` 
+    <span class="un-cuarto"><img src="./img/productos/${producto.id}.jpg" class="img-cart" alt="Bicicleta 1"></span>
+    <span class="un-cuarto"><h3 >${producto.nombre}</h3></span>
+    <span class="un-cuarto">$${producto.precio}</span>
+    <div class="un-cuarto">
     <button>-</button>
     <span class="cantidad">${producto.cantidad}</span>
     <button>+</button>

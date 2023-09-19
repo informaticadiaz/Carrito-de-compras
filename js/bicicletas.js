@@ -3,7 +3,7 @@ const bicicletas = [
   {
     id:1,
     nombre: "Veloziraptor",
-    precio: 111111,
+    precio: 555555,
   },
   {
     id:2,
