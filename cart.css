@@ -7,7 +7,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
   gap: 20px;
 }
 
@@ -18,8 +17,17 @@
   align-items: center;
 }
 
+
+.img-cart{
+  margin: 10px 0;
+  width: 200px;
+  object-fit: cover;
+  
+  
+}
+
 .cart-tarjeta-producto img{
-  height: 100px;
+  height: 200px;
 }
 
 .cart-tarjeta-producto h3{
@@ -37,8 +45,20 @@
   margin: 0 10px;
 }
 
+/* cart totales */
 #totales{
   text-align: center;
+}
+
+.parrafo-totales{
+  margin: 20px 120px;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+#totales button{
+  padding: 20px;
+  margin: 20px;
 }
 
 #carrito-vacio{

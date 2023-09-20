@@ -129,6 +129,8 @@ footer a{
 .tarjeta-producto img{
   max-width:100%;
   aspect-ratio: 1.5;
+  object-fit: cover;
+  max-height: 300px;
 }
 
 .precio{

@@ -2,32 +2,32 @@
 const bicicletas = [
   {
     id:1,
-    nombre: "Veloziraptor",
-    precio: 555555,
+    nombre: "Fideos Secos",
+    precio: 1800,
   },
   {
     id:2,
-    nombre: "Biciclón",
-    precio: 222222,
+    nombre: "Ñoquis",
+    precio: 2000,
   },
   {
     id:3,
-    nombre: "CicloTravesura",
-    precio: 333333,
+    nombre: "Ravioles",
+    precio: 2200,
   },
   {
     id:4,
-    nombre: "Pedalástica",
-    precio: 444444,
+    nombre: "Sorentinos",
+    precio: 2800,
   },
   {
     id:5,
-    nombre: "RuedaFrenesí",
-    precio: 555555,
+    nombre: "Rueda",
+    precio: 1800,
   },
   {
     id:6,
     nombre: "CicloLoco",
-    precio: 666666,
+    precio: 2000,
   }
 ]

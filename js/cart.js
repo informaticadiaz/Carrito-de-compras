@@ -13,7 +13,7 @@ function crearTarjetasProductosCarrito() {
       const nuevaBicicleta = document.createElement("div");
       nuevaBicicleta.classList = "cart-tarjeta-producto";
       nuevaBicicleta.innerHTML = ` 
-    <span class="un-cuarto"><img src="./img/productos/${producto.id}.jpg" class="img-cart" alt="Bicicleta 1"></span>
+    <span class="un-cuarto img"><img src="./img/productos/${producto.id}.jpg" class="img-cart" alt="Bicicleta 1"></span>
     <span class="un-cuarto"><h3 >${producto.nombre}</h3></span>
     <span class="un-cuarto">$${producto.precio}</span>
     <div class="un-cuarto">
